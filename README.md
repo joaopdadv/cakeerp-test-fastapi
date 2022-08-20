@@ -7,8 +7,12 @@ Projeto final desenvolvido em python juntamente com a biblioteca FastAPI.
 ### Retorna todos os itens
 
 ```http
-  GET /pessoas
+  GET /pessoas?skip=${skip}&limit=${limit}
 ```
+| Parâmetro   | Tipo       | Descrição                                   |
+| :---------- | :--------- | :------------------------------------------ |
+| `skip`      | `int` | **Opcional**. Offset na busca |
+| `limit`      | `int` | **Opcional**. Limita a busca até o número |
 
 ### Retorna uma pessoa buscando por id
 
