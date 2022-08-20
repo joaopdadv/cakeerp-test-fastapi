@@ -1,3 +1,6 @@
+# Cakeerp - Programa de talentos - FastAPI
+
+Projeto final desenvolvido em python juntamente com a biblioteca FastAPI.
 
 ## Documentação da API
 
